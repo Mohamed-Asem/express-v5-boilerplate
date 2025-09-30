@@ -1,0 +1,20 @@
+{
+  "name": "new-express-app",
+  "version": "1.0.0",
+  "description": "this project used as boilerplate for any new project for express v5",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "mohamed asem",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
